@@ -1,0 +1,3 @@
+- [x] Modificar src/App.jsx para implementar el contador con botones de incrementar y decrementar
+- [x] Editar src/App.css para agregar estilos al componente
+- [x] Ejecutar el servidor de desarrollo para probar

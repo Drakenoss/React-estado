@@ -1,30 +1,16 @@
-# React-estado
+# React + Vite
 
-Crear un componente de React llamado App que tenga un contador inicializado en 0 y dos botones para incrementar y decrementar el contador.
-Instrucciones
-Enlaces a un sitio externo.
-Configuración del Proyecto: Crea un nuevo proyecto de React con vite o utiliza uno existente si lo tienes configurado. Creación del Componente App: En el archivo src/App.jsx, crea un componente funcional de React llamado App.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Definición del Estado
-Enlaces a un sitio externo.
-Utiliza useState de React para definir un estado llamado count con un valor inicial de 0.
+Currently, two official plugins are available:
 
-Renderización del Contador
-Enlaces a un sitio externo.
-Renderiza el valor del contador count en un elemento dentro del componente App.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-Creación de Botones
-Enlaces a un sitio externo.
-Agrega dos botones en el componente App. Uno debe ser etiquetado como "Incrementar" y el otro como "Decrementar".
+## React Compiler
 
-Funciones de Incremento y Decremento
-Enlaces a un sitio externo.
-Crea dos funciones, incrementCount y decrementCount, que utilizan setCount para aumentar y disminuir el valor del contador respectivamente.
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-Manejo de Eventos
-Enlaces a un sitio externo.
-Asocia las funciones incrementCount y decrementCount a los botones de "Incrementar" y "Decrementar", respectivamente, utilizando el evento onClick.
+## Expanding the ESLint configuration
 
-Estilo
-Enlaces a un sitio externo.
-Puedes aplicar estilos CSS a tu componente App y los botones para mejorar la presentació
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
